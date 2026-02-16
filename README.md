@@ -1,14 +1,29 @@
-# zylos-imagegen
+<p align="center">
+  <img src="./assets/logo.png" alt="Zylos" height="120">
+</p>
 
-AI image generation component for [Zylos](https://github.com/zylos-ai/zylos-core) using Google Gemini models.
+<h1 align="center">zylos-imagegen</h1>
 
-## Features
+<p align="center">
+  AI image generation and editing component for <a href="https://github.com/zylos-ai/zylos-core">Zylos</a> agents using Google Gemini models.
+</p>
 
-- **Text-to-image**: Generate images from text descriptions
-- **Image editing**: Modify existing images with natural language instructions
-- **Multi-model**: Support for `gemini-2.5-flash-image` (default) and `gemini-3-pro-image-preview`
-- **Proxy support**: Auto-detects `HTTPS_PROXY`/`HTTP_PROXY` from environment
-- **Dual interface**: CLI scripts for shell-based agents + programmatic API for code integration
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node.js"></a>
+  <a href="https://discord.gg/GS2J39EGff"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://x.com/ZylosAI"><img src="https://img.shields.io/badge/X-follow-000000?logo=x&logoColor=white" alt="X"></a>
+  <a href="https://zylos.ai"><img src="https://img.shields.io/badge/website-zylos.ai-blue" alt="Website"></a>
+  <a href="https://coco.xyz"><img src="https://img.shields.io/badge/Built%20by-Coco-orange" alt="Built by Coco"></a>
+</p>
+
+---
+
+- **Text-to-image** — generate images from text descriptions using Gemini models
+- **Image editing** — modify existing images with natural language instructions
+- **Multi-model** — supports `gemini-3-pro-image-preview` (default) and `gemini-2.5-flash-image`
+- **Proxy support** — auto-detects `HTTPS_PROXY`/`HTTP_PROXY` from environment
+- **Dual interface** — CLI scripts for shell-based agents + programmatic API for code integration
 
 ## Install
 
@@ -76,6 +91,10 @@ Uses the `@google/genai` SDK to call Google's Gemini image generation models dir
 
 For environments behind a proxy, the component automatically configures `undici`'s `ProxyAgent` as the global fetch dispatcher when `HTTPS_PROXY` or `HTTP_PROXY` is set.
 
+## Built by Coco
+
+Zylos is the open-source core of [Coco](https://coco.xyz/) — the AI employee platform.
+
 ## License
 
-MIT
+[MIT](./LICENSE)
