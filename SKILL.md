@@ -44,19 +44,19 @@ dependencies: []
 ## Text-to-Image
 
 ```bash
-node ~/.claude/skills/imagegen/scripts/generate.js --prompt "A cute blue octopus mascot" --output octopus.png
-node ~/.claude/skills/imagegen/scripts/generate.js --prompt "Mountain landscape" --count 3
+node ~/zylos/.claude/skills/imagegen/scripts/generate.js --prompt "A cute blue octopus mascot" --output octopus.png
+node ~/zylos/.claude/skills/imagegen/scripts/generate.js --prompt "Mountain landscape" --count 3
 ```
 
-Run `node ~/.claude/skills/imagegen/scripts/generate.js --help` for all options.
+Run `node ~/zylos/.claude/skills/imagegen/scripts/generate.js --help` for all options.
 
 ## Image Editing
 
 ```bash
-node ~/.claude/skills/imagegen/scripts/edit.js --input photo.png --prompt "Add sunglasses" --output cool.png
+node ~/zylos/.claude/skills/imagegen/scripts/edit.js --input photo.png --prompt "Add sunglasses" --output cool.png
 ```
 
-Run `node ~/.claude/skills/imagegen/scripts/edit.js --help` for all options.
+Run `node ~/zylos/.claude/skills/imagegen/scripts/edit.js --help` for all options.
 
 ## Notes
 
