@@ -27,7 +27,7 @@ config:
   optional:
     - name: IMAGEGEN_MODEL
       description: Gemini model for image generation
-      default: "gemini-2.5-flash-image"
+      default: "gemini-3-pro-image-preview"
     - name: IMAGEGEN_OUTPUT_DIR
       description: Default output directory for generated images
       default: "~/zylos/components/imagegen/output"

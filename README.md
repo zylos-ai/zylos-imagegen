@@ -33,7 +33,7 @@ Add to `~/zylos/.env`:
 GEMINI_API_KEY=your_google_ai_studio_api_key
 
 # Optional
-IMAGEGEN_MODEL=gemini-2.5-flash-image       # or gemini-3-pro-image-preview
+IMAGEGEN_MODEL=gemini-3-pro-image-preview    # or gemini-2.5-flash-image
 IMAGEGEN_OUTPUT_DIR=~/zylos/components/imagegen/output
 ```
 
