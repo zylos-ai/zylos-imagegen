@@ -22,7 +22,7 @@ if (existsSync(ENV_PATH)) {
 
 export const config = {
   apiKey: process.env.GEMINI_API_KEY,
-  model: process.env.IMAGEGEN_MODEL || 'gemini-2.5-flash-image',
+  model: process.env.IMAGEGEN_MODEL || 'gemini-3-pro-image-preview',
   outputDir: (process.env.IMAGEGEN_OUTPUT_DIR || `${HOME}/zylos/components/imagegen/output`).replace('~', HOME),
   proxy: process.env.HTTPS_PROXY || process.env.HTTP_PROXY || null,
 };
