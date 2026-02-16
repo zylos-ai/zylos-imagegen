@@ -44,19 +44,19 @@ dependencies: []
 ## Text-to-Image
 
 ```bash
-node scripts/generate.js --prompt "A cute blue octopus mascot" --output octopus.png
-node scripts/generate.js --prompt "Mountain landscape" --count 3
+node ~/.claude/skills/imagegen/scripts/generate.js --prompt "A cute blue octopus mascot" --output octopus.png
+node ~/.claude/skills/imagegen/scripts/generate.js --prompt "Mountain landscape" --count 3
 ```
 
-Run `node scripts/generate.js --help` for all options.
+Run `node ~/.claude/skills/imagegen/scripts/generate.js --help` for all options.
 
 ## Image Editing
 
 ```bash
-node scripts/edit.js --input photo.png --prompt "Add sunglasses" --output cool.png
+node ~/.claude/skills/imagegen/scripts/edit.js --input photo.png --prompt "Add sunglasses" --output cool.png
 ```
 
-Run `node scripts/edit.js --help` for all options.
+Run `node ~/.claude/skills/imagegen/scripts/edit.js --help` for all options.
 
 ## Notes
 
