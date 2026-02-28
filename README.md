@@ -4,6 +4,8 @@
 
 <h1 align="center">🐙 zylos-imagegen</h1>
 
+> **Zylos** (/ˈzaɪ.lɒs/) — Give your AI a life
+
 <p align="center">
   AI image generation and editing component for <a href="https://github.com/zylos-ai/zylos-core">Zylos</a> agents using Google Gemini models.
 </p>
