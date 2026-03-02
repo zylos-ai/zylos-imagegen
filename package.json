@@ -1,6 +1,6 @@
 {
   "name": "zylos-imagegen",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "AI image generation component for Zylos using Google Gemini models",
   "type": "module",
   "main": "src/index.js",

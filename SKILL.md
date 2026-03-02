@@ -1,6 +1,6 @@
 ---
 name: imagegen
-version: 0.1.0
+version: 0.1.2
 description: >
   AI image generation using Google Gemini models. Use when the user asks to
   generate, create, draw, or design images, avatars, logos, icons, illustrations,
